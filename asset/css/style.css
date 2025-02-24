@@ -107,7 +107,7 @@ a {
   font-size: 1.6rem;
 }
 
-.header a:hover {
+.header a:hover:not(.btn.sign-up) {
   text-shadow: 1px 0 0 currentColor;
 }
 
